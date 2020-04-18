@@ -11,6 +11,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Official
 CUSTOM_BUILD_TYPE := OFFICIAL
+EVO_DONATE_URL := https://www.paypal.me/AnierinBliss
+EVO_MAINTAINER := "Anierin Bliss"
+EVO_SUPPORT_URL := https://t.me/EvolutionXPerseus
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
